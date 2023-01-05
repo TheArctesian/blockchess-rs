@@ -7,6 +7,14 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.9"
+bevy_egui = "0.13"
+async-channel = "1.6.1"
+web3 = { version = "0.18.0", features = [
+  "wasm",
+  "eip-1193",
+], default-features = false }
+wasm-bindgen-futures = "0.4.30"
+web-sys = { version = "0.3.60", features = ["Window"]}
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
