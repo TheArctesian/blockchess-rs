@@ -1,4 +1,4 @@
-se bevy::{prelude::*, winit::WinitSettings};
+use bevy::{prelude::*, winit::WinitSettings};
 
 fn main() {
     App::new()
